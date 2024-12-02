@@ -114,16 +114,13 @@ const enableLightMode = () => {
   document.body.classList.add("lightmode");
   localStorage.setItem("lightmode", "active");
   logo.src = "assets/img/Logo_Black.png";
-  image_home.src = "assets/img/PhotoB.png";
-  image_about.src = "assets/img/PhotoB2.png";
+  image_home.src = "assets/img/PhotoB";
 };
 
 const disableLightMode = () => {
   document.body.classList.remove("lightmode");
   localStorage.setItem("lightmode", null);
   logo.src = "assets/img/Logo_White.png";
-  image_home.src = "assets/img/Photo.png";
-  image_about.src = "assets/img/Photo2.png";
 };
 
 const enableDarkMode = () => {

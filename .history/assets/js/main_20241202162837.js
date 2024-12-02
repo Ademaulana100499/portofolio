@@ -100,7 +100,7 @@ const sr = ScrollReveal({
   // reset: true,
 });
 sr.reveal(".home__data, .experience, .skills, .contact__container");
-sr.reveal(".home__img", { delay: 500 });
+sr.reveal(".home__img", { delay: 300 });
 sr.reveal(".home__scroll", { delay: 700 });
 sr.reveal(".project__card, .services__card", { interval: 100 });
 sr.reveal(".about__content", { origin: "right" });
@@ -114,16 +114,12 @@ const enableLightMode = () => {
   document.body.classList.add("lightmode");
   localStorage.setItem("lightmode", "active");
   logo.src = "assets/img/Logo_Black.png";
-  image_home.src = "assets/img/PhotoB.png";
-  image_about.src = "assets/img/PhotoB2.png";
 };
 
 const disableLightMode = () => {
   document.body.classList.remove("lightmode");
   localStorage.setItem("lightmode", null);
   logo.src = "assets/img/Logo_White.png";
-  image_home.src = "assets/img/Photo.png";
-  image_about.src = "assets/img/Photo2.png";
 };
 
 const enableDarkMode = () => {

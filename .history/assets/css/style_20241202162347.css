@@ -71,7 +71,15 @@
 .lightmode #theme-switch i:last-child {
   display: block;
 }
+/* Light Mode */
+.lightmode #logo {
+  content: url("assets/img/Logo_Black.png");
+}
 
+/* Dark Mode */
+#logo {
+  content: url("assets/img/Logo_White.png");
+}
 /* Responsive typography */
 @media screen and (min-width: 1150px) {
   :root {

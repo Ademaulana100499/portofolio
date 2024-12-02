@@ -115,7 +115,6 @@ const enableLightMode = () => {
   localStorage.setItem("lightmode", "active");
   logo.src = "assets/img/Logo_Black.png";
   image_home.src = "assets/img/PhotoB.png";
-  image_about.src = "assets/img/PhotoB2.png";
 };
 
 const disableLightMode = () => {
@@ -123,7 +122,6 @@ const disableLightMode = () => {
   localStorage.setItem("lightmode", null);
   logo.src = "assets/img/Logo_White.png";
   image_home.src = "assets/img/Photo.png";
-  image_about.src = "assets/img/Photo2.png";
 };
 
 const enableDarkMode = () => {
