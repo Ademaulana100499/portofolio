@@ -791,7 +791,4 @@ main {
     column-gap: 4rem;
     order: 1;
   }
-  .scrollup {
-    right: 3rem;
-  }
 }

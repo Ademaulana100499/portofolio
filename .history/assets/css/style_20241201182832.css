@@ -788,7 +788,7 @@ main {
     justify-content: space-between;
   }
   .footer__links {
-    column-gap: 4rem;
+    column-gap: 3rem;
     order: 1;
   }
   .scrollup {
